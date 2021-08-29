@@ -1,0 +1,90 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to right top, #9b89b3, #e384af, #ff8b79, #ffb62a, #a8eb12);
+    height:100%;
+    width:100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height:100vh; */
+  }
+   .card-social-media{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+     flex-direction:column;
+  } 
+  .office-image {
+    background: url(https://compass-ssl.microsoft.com/assets/f9/4c/f94c2916-6a4e-4cbc-9bc1-9f0e0f4ee46c.png?n=ioc_home_bottomleft_4up_491x276.png),
+      hsl(277, 64%, 61%);
+    min-height: 20rem;
+    width: 100%;
+  /*   border-radius:2rem; */
+    background-size: cover;
+  /*   background-blend-mode: luminosity; */
+  /*     width: 100px; */
+  /*   background-attachment:fixed; */
+  /*   background-position:center; */
+  }
+   section {
+    display: flex;
+    background: hsl(244, 38%, 16%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 2rem;
+    overflow: hidden;
+    flex-direction: column-reverse;
+    text-align: center;
+     /* width:100%; */
+     /* height:100%; */
+  } 
+  .card-content {
+    padding: 2rem;
+  /*   width:100%; */
+  }
+
+  .card-count {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .card-count + p {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin: 0px;
+  }
+  /* @media (min-width: 600px) {
+    section {
+      display:flex;
+      flex-direction: row;
+      text-align: left;
+    } */
+  
+  
+  @media (min-width: 600px) {
+    body{
+      height: 100vh;
+    }
+    section {
+      flex-direction: row;
+      text-align: left;
+    }
+  
+    .office-image {
+  /*     background: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_533979847_128300.jpg), */
+        /* orchid; */
+      background-size: cover;
+  /*   background-blend-mode: luminosity; */
+    overflow: hidden;
+  /*     width: 100px; */
+  /*   background-attachment:fixed; */
+  /*   background-position:center; */
+  }
+    
+    
+    .card-social-media{
+      flex-direction: row;
+    }
+  }
